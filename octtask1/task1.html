@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate Website</title>
+  <style>
+    /* CSS Styles */
+    .anything {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+    }
+
+    .hello {
+      width: 100%;
+      min-height: 100vh;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGgGBq0Tnq37c1pUqJiniCDr53A1wICWqBjw&s);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x:top;
+    }
+
+    nav {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      width: 100%;
+      text-align: right;
+      padding-right: 60px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 10px 20px;
+    }
+
+    nav ul li a {
+      color: #ffff;
+      text-decoration: none;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      border: 0;
+      outline: 0;
+      border-radius: 5px;
+      background: #be0909;
+      color: black;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .content {
+      margin-top: 14%;
+      color: rgba(255, 115, 0, 0.89);
+      max-width: 620px;
+    }
+
+    .content h1 {
+      font-size: 100px;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+
+    .content form {
+      display: flex;
+      align-items:center;
+      background: #860a14;
+      border-radius: 5px;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    .content form input {
+      border: 0;
+      outline: 0;
+      width: 100%;
+      font-size: 16px;
+      padding: 10px;
+    }
+
+    .content form .btn {
+      font-size: 15px;
+      padding: 10px 30px;
+    }
+  </style>
+</head>
+<body class="anything">
+  <div class="hello">
+    <nav>
+ 
+      <ul>
+        <li><a href="#">Famous Chocolates</a></li>
+        <li><a href="#">Your Cart</a></li>
+      </ul>
+      <button class="btn">Order</button>
+    </nav>
+    <div class="content">
+      <h1>Treat<br>Yourself!</h1>
+      <p>Life is sweeter with chocolates</p>
+      <img src="pis.png" alt="">
+      
+      <form>
+        <input type="text" placeholder="Chocolate Name">
+        <button type="submit" class="btn">Search</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
